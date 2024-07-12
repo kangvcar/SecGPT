@@ -158,11 +158,7 @@ export function SideBar(props: { className?: string }) {
           SecGPT Pro
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          免费使用 ❤️
-          <br />
-          公众号「康创护网研习社」
-          <br />
-          回复「secgpt」获取 🆔访问码 即可
+          构建你的Ai助手 ❤️ 永久免费使用
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
