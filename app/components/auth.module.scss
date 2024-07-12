@@ -20,6 +20,16 @@
     font-size: 14px;
   }
 
+  .auth-qr {
+    margin-top: 20px; // 二维码图片上方的间距
+    text-align: center; // 使二维码图片居中显示
+
+    img {
+      width: 120px; // 二维码图片的宽度
+      height: auto; // 保持图片的原始宽高比
+    }
+  }
+
   .auth-input {
     margin: 3vh 0;
   }

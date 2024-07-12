@@ -35,9 +35,11 @@ export function AuthPage() {
       <div className={`no-dark ${styles["auth-logo"]}`}>
         <BotIcon />
       </div>
-
       <div className={styles["auth-title"]}>{Locale.Auth.Title}</div>
       <div className={styles["auth-tips"]}>{Locale.Auth.Tips}</div>
+      <div className={styles["auth-qr"]}>
+        <img src={Locale.Auth.Qrpath} alt="QR Code" />
+      </div>
 
       <input
         className={styles["auth-input"]}
@@ -50,7 +52,7 @@ export function AuthPage() {
           );
         }}
       />
-      {!accessStore.hideUserApiKey ? (
+      {/* {!accessStore.hideUserApiKey ? (
         <>
           <div className={styles["auth-tips"]}>{Locale.Auth.SubTips}</div>
           <input
@@ -76,8 +78,7 @@ export function AuthPage() {
             }}
           />
         </>
-      ) : null}
-
+      ) : null} */}
       <div className={styles["auth-actions"]}>
         <IconButton
           text={Locale.Auth.Confirm}
